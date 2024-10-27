@@ -1,0 +1,145 @@
+.style1 {
+    border: 20px solid;
+    margin: 0 auto;
+    padding: 10px;
+    width: 1000px;
+    background-image: linear-gradient(to bottom, rgba(70, 24, 66, 0.5), rgba(0, 0, 255, 0.5), rgba(89, 150, 30));
+    position: relative;
+    border-radius: 20px;
+    border-image: url("border_image.gif") 50 stretch;
+}
+
+.style3 {
+    padding: 15px 1px 15px 1px;
+    height: 50px;
+    width: 400px;
+    margin: 8px auto;
+    border: 8px solid transparent;
+    border-radius: 20px;
+    text-align: center; 
+    font-size: 40px;
+    background: 
+        linear-gradient(rgb(255, 255, 255), rgb(198, 178, 252), rgb(68, 68, 87)) padding-box,
+        linear-gradient(to right, rgba(95, 155, 93), rgba(56, 200, 60), rgba(150, 60, 200)) border-box;
+    font-family: Helvetica;
+    font-style: normal;
+    color:rgba(82, 0, 0, 0.5);
+}
+
+.style2 {
+    border: 8px solid transparent;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    background: 
+        linear-gradient(rgba(150, 45, 65), rgba(60, 89, 145)) padding-box,
+        linear-gradient(to right, rgba(95, 155, 93), rgba(56, 200, 60), rgba(150, 60, 200)) border-box;
+}
+
+.band_logo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album_cubierta {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid transparent;
+    border-radius: 12px;
+    background: 
+        linear-gradient(#131219, #131219) padding-box, 
+        linear-gradient(var(--angle),#070707,#687aff) border-box;
+    animation: 8s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+
+}
+
+@property --angle {
+syntax: "<angle>";
+initial-value: 0deg;
+inherits: false;
+}
+
+
+.style4 {
+    border: 10px solid transparent;
+    border-radius: 20px;
+    display: block;
+    width: 480px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+    background: 
+        linear-gradient(rgb(150, 33, 55), rgb(158, 173, 202)) padding-box,
+        linear-gradient(to right, rgba(95, 155, 93), rgba(56, 200, 60), rgba(150, 60, 200)) border-box;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Helvetica;
+
+}
+
+.style5 {
+    font-style: normal;
+    font-size: 30px;
+    font-family: Helvetica;
+    border: 10px solid transparent;
+    border-radius: 20px;
+    background: 
+        linear-gradient(to bottom, rgb(255, 255, 255), rgb(199, 189, 189)) padding-box,
+        linear-gradient(to right, rgb(180, 173, 173), rgba(56, 200, 60), rgba(150, 60, 200)) border-box;
+    width: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.descripcion {
+    border: 10px solid transparent;
+    border-radius: 20px;
+    background: 
+        linear-gradient(rgb(255, 255, 255), rgb(187, 76, 49)) padding-box,
+        linear-gradient(to right, rgba(95, 155, 93), rgba(56, 200, 60), rgba(150, 60, 200)) border-box;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.song_list {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.song_refs {
+    display: block;
+    margin: auto;
+    padding: 40px;
+    border: 10px solid transparent ;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, rgb(118, 104, 170), rgb(190, 202, 212)) padding-box
+}
